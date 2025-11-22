@@ -1,0 +1,23 @@
+# Java class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# NetBeans build directories
+/build/
+/dist/
+/nbproject/private/
+
+# IDE specific files
+*.iml
+.idea/
+/.vscode/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
