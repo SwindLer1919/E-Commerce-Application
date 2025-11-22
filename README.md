@@ -1,13 +1,37 @@
 # E-Commerce Application
 
-A basic Java OOP E-Commerce application built using multiple classes such as User, Product, CreditCard, and Order.  
-The project includes:
+A simple Java OOP-based E-Commerce application featuring user, product, credit card, and order management modules.
 
+## Features
+- Object-Oriented Programming structure  
 - User registration and login  
-- Product listing and product details  
-- Adding items to cart  
+- Product listing and details  
+- Shopping functionality  
 - Credit card validation  
 - Order creation and processing  
-- File-based data persistence (FileManager)
+- File-based data persistence
+
+## Technologies Used
+- Java  
+- Swing (basic UI)  
+- Serialization (saving data to files)
 
 ## Project Structure
+src/  
+├── User.java  
+├── Product.java  
+├── CreditCard.java  
+├── Order.java  
+├── Session.java  
+├── EntryScreen.java  
+├── RegisterScreen.java  
+├── ShoppingScreen.java  
+└── FileManager.java  
+
+## How to Run
+1. Open the project in NetBeans or any Java IDE  
+2. Build the project  
+3. Run the main file  
+
+## Author
+Emir Özer
