@@ -36,7 +36,7 @@ A simple Java OOP-based E-Commerce application featuring user, product, credit c
 
 ## Installation:
 ```
-https://github.com/EmirOzer/E-Commerce-Application.git
+https://github.com/SwindLer1919/E-Commerce-Application.git
 ```
 
 
