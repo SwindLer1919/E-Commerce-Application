@@ -33,5 +33,10 @@ A simple Java OOP-based E-Commerce application featuring user, product, credit c
 2. Build the project  
 3. Run the main file  
 
+
+## Installation:
+https://github.com/EmirOzer/E-Commerce-Application.git
+
+
 ## Author
 Emir Özer
