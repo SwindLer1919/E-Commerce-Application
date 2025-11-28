@@ -17,16 +17,8 @@ A simple Java OOP-based E-Commerce application featuring user, product, credit c
 - Serialization (saving data to files)
 
 ## Project Structure
-src/  
-├── User.java  
-├── Product.java  
-├── CreditCard.java  
-├── Order.java  
-├── Session.java  
-├── EntryScreen.java  
-├── RegisterScreen.java  
-├── ShoppingScreen.java  
-└── FileManager.java  
+CreditCard.java
+
 
 ## How to Run
 1. Open the project in NetBeans or any Java IDE  
