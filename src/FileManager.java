@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 public class FileManager<T extends FileSerializable<T>> {
     
     private final String fileName;
-    private final T prototype; // deserialize işlemi için boş örnek
+    private final T prototype; 
     
     public FileManager(String fileName, T prototype) {
         this.fileName = System.getProperty("user.dir") + File.separator + fileName;
@@ -21,11 +21,11 @@ public class FileManager<T extends FileSerializable<T>> {
                 writer.newLine();
             }
         } catch (IOException ex) {
-            System.out.println("Yazma Hatası" + ex.getMessage()); // bu şekilde atılmayacak
+            System.out.println("Yazma Hatası" + ex.getMessage()); 
         }
     }
     
-    // kendi ex'i de var haberin olsun lo
+    
     public List<T> loadFromFile() {
         
         List<T> data = new ArrayList<>();
